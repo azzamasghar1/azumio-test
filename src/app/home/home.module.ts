@@ -5,10 +5,9 @@ import { SelectDirectiveModule } from './../shared/select-directive/select.modul
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
-import { HomeButtonComponent } from './shared/home-button/home-button.component';
 
 @NgModule({
-  declarations: [HomeComponent, HomeButtonComponent],
+  declarations: [HomeComponent],
   imports: [
     CommonModule,
     SelectDirectiveModule,
